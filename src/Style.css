@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: #E69DB8 0px 0px 8px 2px;
+  background-color: #F5EEE6;
+  color: #E69DB8;
+}
+
+.header-div{
+  display: flex;
+  gap:5px;   
+  background-color: #e69db8;    
+  border-radius: 9px;
+  margin: 4px 0px;
+}
+.header-menu {
+    padding: 5px 10px;
+}
+.header-menu:hover{
+  background-color: #e7bed9;
+  border-radius: 5px;
+  
+}
+a{
+  text-decoration: none;  
+  color: #a0385f;
+}
+a:hover{
+    color: #a0385f;
+}
+
+a:active{
+  color: #e26d98;
+  background-color: #FFF8E3;
+  border-radius: 5px;
+}
+nav::after{
+    content: "";
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e69db8;
+    bottom: 5px;
+}
+h3 {
+    padding: 0px 5px;
+    text-align: left;
+}
+.len-converter-div {
+    display: flex;
+    gap: 20px;
+}
+.len-from-div, .len-to-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+lable {
+    font-size: 12px;
+}
+.converter-div {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+input[type="number"]:focus {     
+  outline: none;                   
+}
+
+input.txt, select {
+    
+    background-color: #f5eee6;      
+    border-color: #E6B2BA;          
+    box-shadow: 0 0 3px #E6B2BA; 
+    border-radius: 6px;
+    height: 25px;
+    font-size: 11px;
+}
+input.txt {
+    width: 70%;
+    padding: 0px 10px;
+}
+select{
+    width: 75px;
+    white-space: nowrap;
+}
+.result-div {
+    box-sizing: border-box;
+    border: 1px solid;
+    margin: 20px 0px;
+    min-height: 98px;
+    border-radius: 6px;
+}
+.txt{
+    background-color: #E69DB8   ;
+}
