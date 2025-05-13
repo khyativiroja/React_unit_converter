@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
     <Router>
       <Routes>
         <Route path="*" element={<h2>Page Not Found</h2>} />
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Length />} />
         <Route path="/Length" element={<Length />} />
         <Route path="/Weight" element={<Weight />} />
         <Route path="/Time" element={<Time />} />
